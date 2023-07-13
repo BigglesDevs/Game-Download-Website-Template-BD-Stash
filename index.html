@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Johns Models | 👋</title>
+    <script src="https://kit.fontawesome.com/e2e890818b.js" crossorigin="anonymous"></script>
+</head>
+<div id="error-message" style="display: none;">No matching games found.</div>
+<body>
+    <div id="header">
+        <div class="container">
+            <!-- ---------- Nav bar ---------- -->
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li class="active"><a href="#header">Home</a></li>
+                    <li><a href="./html/cats.html">Categories</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">ACTION</a></li>
+                        <li><a href="#">ADVENTURE</a></li>
+                        <li><a href="#">ADULT</a></li>
+                        <li><a href="#">ANIME</a></li>
+                        <li><a href="#">FPS</a></li>
+                        <li><a href="#">HORROR</a></li>
+                        <li><a href="#">INDIE</a></li>
+                        <li><a href="#">POPULAR</a></li>
+                        <li><a href="#">OPEN WORLD</a></li>
+                        <li><a href="#">RACING</a></li>
+                        <li><a href="#">RPG</a></li>
+                        <li><a href="#">REMASTERED</a></li>
+                        <li><a href="#">SIMULATION</a></li>
+                        <li><a href="#">SPORTS</a></li>
+                        <li><a href="#">SURVIVAL</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="./html/dmcarq.html">DMCA Request</a></li>
+                    <li><a href="./html/gamerq.html">Game Request</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()" ></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <div class="typing"></div>
+                <p><span class="auto-type"></span></p>
+                <h1>Welcome 👋, To BD's Game Stash <br><span>PRE-INSTALLED GAMES FOR PC</span></h1>
+                <p>Steam Unlocked allows you to download your favourite games pre-installed on steam without the cost.</p>
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Search">
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- ---------- Recently Added ---------- -->
+        <div id="games">
+            <div class="container">
+                <h1 class="sub-title"><span>Recently </span>Added</h1>
+                <div class="game-list">
+                    <div class="game">
+                        <img src="./images/recent-games/game1.png" data-game="Bum Simulator, Simulator, Sim">
+                        <div class="layer">
+                            <h2><strong>Bum Simulator</strong></h2>
+                            <p>(v3.6.14.a)</p>
+                            <a href="./html/bumsim-download.html"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square" style="color: #373ac5;"></i></a>
+                        </div>
+                    </div>
+                    <div class="game">
+                        <img src="images/recent-games/game2.png" data-game="Far Cry 6, Far Cry">
+                        <div class="layer">
+                            <h2><strong>Far Cry 6</strong></h2>
+                            <p>(v1.5.0 + All DLC's)</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square" style="color: #373ac5;"></i></a>
+                        </div>
+                    </div>
+                    <div class="game">
+                        <img src="./images/recent-games/game3.png" data-game="Hobo Tough Life, Simulator, Sim">
+                        <div class="layer">
+                            <h2><strong>Hobo Tough Life</strong></h2>
+                            <p>(v1.20.010)</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square" style="color: #373ac5;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <script src="./js/search.js"></script>
+        <script src="./js/sidemenu.js"></script>
+</body>
+</html>
