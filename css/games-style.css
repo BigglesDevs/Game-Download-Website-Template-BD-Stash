@@ -1,0 +1,69 @@
+.game-container {
+  display: flex;
+  justify-content: center; /* Aligns contents horizontally */
+  align-items: center; /* Aligns contents vertically */
+}
+
+#game-image {
+  width: 600px;
+  height: 600px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+#game-details {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center; /* Centers the table horizontally */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px; /* Adjust the max-width as needed */
+  height: 550px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #fff;
+}
+
+td {
+  background-color: grey;
+}
+
+th {
+  background-color: rgb(102, 100, 100);
+}
+
+.title h1{
+  margin: 10px;
+}
+
+.title span{
+  color: #01629e;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.button {
+  margin-left: 28px;
+}
+
+.button a{
+  background-image: linear-gradient(to bottom, #01629e, #1c1f4e);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.button a:hover {
+  background-image: linear-gradient(to bottom, #019e52, #075730);
+}

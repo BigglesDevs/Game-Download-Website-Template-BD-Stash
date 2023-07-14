@@ -4,20 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../game.css">
-    <title>Johns Models | Download</title>
+    <link rel="stylesheet" href="/css/games-style.css">
+    <link rel="stylesheet" href="/css/base-style.css">
+    <title>BD's Game Stash | 👋</title>
     <script src="https://kit.fontawesome.com/e2e890818b.js" crossorigin="anonymous"></script>
 </head>
+<div id="error-message" style="display: none;">No matching games found.</div>
 <body>
     <div id="header">
         <div class="container">
             <!-- ---------- Nav bar ---------- -->
             <nav>
-                <img src="images/logo.png" class="logo">
+                <img src="/img/main/logo.png" class="logo">
                 <ul id="sidemenu">
-                    <li class="active"><a href="#header">Home</a></li>
-                    <li><a href="./html/cats.html">Categories</a>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="">Categories</a>
                     <ul class="sub-menu">
                         <li><a href="#">ACTION</a></li>
                         <li><a href="#">ADVENTURE</a></li>
@@ -54,34 +55,49 @@
             </div>
         </div>
     </div>
-    
-    <div id="download">
-        <div class="container">
-            <div class="download-content">
-                <div class="game-details">
-                    <h2>Game Title</h2>
-                    <p>(Version: 1.0)</p>
-                    <p>Release Date: January 1, 2023</p>
-                    <p>Genre: Action</p>
-                    <p>Developer: Game Developer</p>
-                    <p>Publisher: Game Publisher</p>
-                    <p>Platform: PC</p>
-                    <p>File Size: 10 GB</p>
-                </div>
-                <div class="game-image">
-                    <img src="../images/recent-games/game1.png" alt="Game Image">
-                </div>
-                <a href="#" class="btn">Download Now</a>
-            </div>
-            <div class="game-description">
-                <h3>About the Game</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis condimentum massa. Aenean dapibus, felis a tincidunt ullamcorper, felis orci fringilla metus, nec tempor est tortor a ligula. Aliquam sed mi nec est tincidunt placerat.</p>
-                <p>Nulla facilisi. Donec vulputate magna in lectus consectetur, eu dignissim leo condimentum. Sed tristique fringilla augue, et pharetra elit placerat id. Proin mattis auctor commodo. Nulla tristique elit eu neque rhoncus, nec scelerisque sapien varius.</p>
-            </div>
+    <div class="title">
+        <h1>Game <span>Download</span></h1>
+    </div>
+    <div class="game-container">
+        <img id="game-image" src="/img/recent-games/game1.png" alt="Game Image">
+        <div id="game-details">
+            <table>
+                <te>
+                    <th>Game Title</th>
+                    <td>Game Name</td>
+                </tr>
+                <tr>
+                    <th>Developer</th>
+                    <td>Game Developer</td>
+                </tr>
+                <tr>
+                    <th>Release Date</th>
+                    <td>Game Release Date</td>
+                </tr>
+                <tr>
+                    <th>File Size</th>
+                    <td>Game File Size</td>
+                </tr>
+                <tr>
+                    <th>Game Description</th>
+                    <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis 
+                        minima asperiores atque, quo veritatis ipsam accusamus voluptatem esse? 
+                        Similique voluptate delectus est commodi necessitatibus beatae pariatur 
+                        cumque consequatur quam repudiandae.</td>
+                </tr>
+                <tr>
+                    <th>Download</th>
+                    <td>
+                        <div class="button-container">
+                        <div class="button"><a href="#">Download #1!</a></div>
+                        <div class="button"><a href="#">Download #2!</a></div>
+                        <div class="button"><a href="#">Download #3!</a></div>
+                    </td>
+                </tr>
+            </table>
         </div>
     </div>
-
-    <script src="../js/search.js"></script>
-    <script src="../js/sidemenu.js"></script>
+        <script src="./js/search.js"></script>
+        <script src="./js/sidemenu.js"></script>
 </body>
 </html>
